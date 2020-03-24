@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Владислав Сергеевич](https://up.htmlacademy.ru/adaptive/19/user/1225721).
-* Наставник: `Неизвестно`.
+* Наставник: [Артур Трифонов](https://htmlacademy.ru/profile/wrgraff).
 
 ---
 
