@@ -31,18 +31,35 @@
     </header>
     <main class="page-main">
       <h1 class="visually-hidden">Pink - Инстаграм на минималках</h1>
-      <h2 class="page-main__text">Взгляните на жизнь иначе!</h2>
-      <img class="page-main__image" src="https://via.placeholder.com/320x462">
-      <div class="page-main__icons-image">
-        <p>Скачать приложение</p>
-        <img class="page-main__icon-image" src="https://via.placeholder.com/47x56">
-        <img class="page-main__icon-image" src="https://via.placeholder.com/43x47">
-        <img class="page-main__icon-image" src="https://via.placeholder.com/44x41">
+      <section class="app-info">
+      <h2 class="app-info__text">Взгляните на жизнь иначе!</h2>
+      <div class="app-info__download">
+        <a href="tms-apps://" class="app-info__download-button" href="#">
+          <span>Скачать приложение</span>
+        </a>
+        <ul class="app-info__store">
+          <li class="app-info__store--appstore">
+            <a href="itms-apps://">
+              <img src="https://via.placeholder.com/47x56" alt="Иконка Appstore">
+            </a>
+          </li>
+          <li class="app-info__stor--playmarket">
+            <a href="https://play.google.com/store?hl=ru">
+              <img src="https://via.placeholder.com/43x47" alt="Иконка PlayMarket">
+            </a>
+          </li>
+          <li class="app-info__stor--microsoft">
+            <a href="https://www.microsoft.com/ru-RU/store/apps">
+              <img src="https://via.placeholder.com/44x41" alt="Иконка Microsoft">
+            </a>
+          </li>
+        </ul>
         <p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
       </div>
-      <div class="advances">
-        <h3 class="advances__text">Устали от серости мегаполиса?</h3>
-        <h3 class="advances__text">Нам есть, что вам предложить!</h3>
+      </section>
+      <div class="advances-info">
+        <p class="advances-info__text">Устали от серости мегаполиса?</p>
+        <p class="advances-info__text">Нам есть, что вам предложить!</p>
       </div>
       <section class="advances">
         <ul class="advances__list">
@@ -59,7 +76,7 @@
             <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
         </ul>
-        <img class="page-main__phone-image" src="https://via.placeholder.com/157x320">
+        <img class="advances__phone-image" src="https://via.placeholder.com/157x320" alt="Фотография телефона с приветствием">
       </section>
     </main>
   </body>
