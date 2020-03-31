@@ -1,134 +1,142 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-  </head>
-  <body>
-    <header class="page-header">
-      <a href="index.html" class="page-header__logo">
-        <img class="page-header__logo-image" src="https://via.placeholder.com/75x22" alt="Логотип Pink">
-      </a>
-      <nav class="main-nav">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a href="index.html">Главная</a>
-            </li>
-            <li class="site-list__item">
-              <a href="photo.html">Фотографии</a>
-            </li>
-            <li class="site-list__item site-list__item--active">
-              <a>Конкурс</a>
-            </li>
-            <li class="site-list__item">
-              <a href="https://htmlacademy.ru/">HTML ACADEMY</a>
-            </li>
-          </ul>
-          <p class="#">Конкурс на самое безбашенное путешествие с Пинк</p>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
+<body>
+  <header class="page-header">
+    <a href="index.html" class="page-header__logo">
+      <img class="page-header__logo-image" src="https://via.placeholder.com/75x22" alt="Логотип Pink">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">Фотографии</a>
+          </li>
+          <li class="site-list__item site-list__item--active">
+            <a>Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://htmlacademy.ru/">HTML ACADEMY</a>
+          </li>
+        </ul>
+        <p class="#">Конкурс на самое безбашенное путешествие с Пинк</p>
+      </div>
+    </nav>
+    <main class="page-form">
+      <div class="competition">
+        <p class="competition__text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу
+          бонусную карту!</p>
+      </div>
+      <form class="form-section" action="https://echo.htmlacademy.ru" method="post">
+        <div class="personal-details">
+          <span class="personal-details__item">Фамилия:</span>
+          <input class="personal-details__text" type="text" placeholder="Укажите фамилию *" required>
+          <span class="personal-details__item">Имя</span>
+          <input class="personal-details__text" type="text" placeholder="Введите ваше имя *" required>
+          <span class="personal-details__item">Отчество</span>
+          <input class="personal-details__text" type="text" placeholder="Ну и отчество тоже *" required>
         </div>
-      </nav>
-      <main class="page-form">
-        <div class="competition">
-          <p class="competition__text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
-        </div>
-        <form class="form-section" action="https://echo.htmlacademy.ru" method="post">
-          <div class="personal-details">
-            <span class="personal-details__item">Фамилия:</span>
-            <input class="personal-details__text" type="text" placeholder="Укажите фамилию *" required>
-            <span class="personal-details__item">Имя</span>
-            <input class="personal-details__text" type="text" placeholder="Введите ваше имя *" required>
-            <span class="personal-details__item">Отчество</span>
-            <input class="personal-details__text" type="text" placeholder="Ну и отчество тоже *" required>
+        <div class="achievement">
+          <p class="achievement__text">Ваши безбашенные достижения в путешествии</p>
+          <div class="complete-achievement">
+            <input class="visually-hidden complete-achievement__input complete-achievement__input--checkbox" id="shark"
+              type="checkbox" name="shark" checked>
+            <label class="complete-achievement__cursor" for="shark">
+              Сделал селфи с акулой
+            </label>
+            <input class="visually-hidden complete-achievement__input complete-achievement__input--checkbox" id="beach"
+              type="checkbox" name="beach" checked>
+            <label class="complete-achievement__cursor" for="beach">
+              Обгорел на пляже
+            </label>
+            <input class="visually-hidden complete-achievement__input complete-achievement__input--checkbox" id="chuck"
+              type="checkbox" name="chuck">
+            <label class="complete-achievement__cursor" for="chuck">
+              Видел Чака Норриса
+            </label>
+            <input class="visually-hidden complete-achievement__input complete-achievement__input--checkbox" id="gift"
+              type="checkbox" name="gift">
+            <label class="complete-achievement__cursor" for="gift">
+              Накупил сувениров
+            </label>
+            <input class="visually-hidden complete-achievement__input complete-achievement__input--checkbox" id="tower"
+              type="checkbox" name="tower" checked>
+            <label class="complete-achievement__cursor" for="tower">
+              Удержал башню
+            </label>
+            <input class="visually-hidden complete-achievement__input complete-achievement__input--checkbox" id="hotel"
+              type="checkbox" name="hotel">
+            <label class="complete-achievement__cursor" for="hotel">
+              Разгромил отель
+            </label>
           </div>
-          <div class="achievement">
-            <p class="achievement__text">Ваши безбашенные достижения в путешествии</p>
-              <div class="complete-achievement">
-                <input class="visually-hidden complete-achievement__input complete-achievement__input-checkbox" id="shark" type="checkbox" name="shark" checked>
-                <label class="complete-achievement__cursor" for="shark">
-                  Сделал селфи с акулой
-                </label>
-                <input class="visually-hidden complete-achievement__input complete-achievement__input-checkbox" id="beach" type="checkbox" name="beach" checked>
-                <label class="complete-achievement__cursor" for="beach">
-                  Обгорел на пляже
-                </label>
-                <input class="visually-hidden complete-achievement__input complete-achievement__input-checkbox" id="chuck" type="checkbox" name="chuck">
-                <label class="complete-achievement__cursor" for="chuck">
-                  Видел Чака Норриса
-                </label>
-                <input class="visually-hidden complete-achievement__input complete-achievement__input-checkbox" id="gift" type="checkbox" name="gift">
-                <label class="complete-achievement__cursor" for="gift">
-                  Накупил сувениров
-                </label>
-                <input class="visually-hidden complete-achievement__input complete-achievement__input-checkbox" id="tower" type="checkbox" name="tower" checked>
-                <label class="complete-achievement__cursor" for="tower">
-                  Удержал башню
-                </label>
-                <input class="visually-hidden complete-achievement__input complete-achievement__input-checkbox" id="hotel" type="checkbox" name="hotel">
-                <label class="complete-achievement__cursor" for="hotel">
-                  Разгромил отель
-                </label>
-              </div>
-              <div class="contact-information">
-                <span class="personal-details__item">Номер телефона</span>
-                <input class="personal-details__text" type="text" placeholder="Номер, пожалуйста" required>
-                <span class="personal-details__item">Адрес почты</span>
-                <input class="personal-details__text" type="text" placeholder="Введите почту *" required>
-              </div>
-              <div class="app-quiz">
-                <p class="app-quiz__text">С каким приложением путешествовали?</p>
-                <input class="visually-hidden app-quiz__input app-quiz__input-checkbox" id="ios" type="radio" name="ios" checked>
-                <label class="app-quiz__cursor" for="ios">
-                  Pink для iOS
-                </label>
-                <input class="visually-hidden app-quiz__input app-quiz__input-checkbox" id="android" type="radio" name="android">
-                <label class="app-quiz__cursor" for="android">
-                  Pink для Android
-                </label>
-                <input class="visually-hidden app-quiz__input app-quiz__input-checkbox" id="windows" type="radio" name="windows">
-                <label class="app-quiz__cursor" for="windows">
-                  Windows Phone
-                </label>
-              </div>
-              <div class="comment-about">
-                <p class="comment-about-text">Опишите свои  эмоции</p>
-                <form class="comment-about__form">
-                  <textarea placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
-                  <input type="submit" name="submitform" value="Отправить форму">
-                </form>
-                <p class="comment-about__important">* — обязательные поля</p>
-              </div>
+          <div class="contact-information">
+            <label class="personal-details__item">Номер телефона</label>
+            <input class="personal-details__text" type="text" placeholder="Номер, пожалуйста" required>
+            <label class="personal-details__item">Адрес почты</label>
+            <input class="personal-details__text" type="text" placeholder="Введите почту *" required>
           </div>
-        </form>
-      </main>
-      <footer class="page-footer">
-        <img class="page-footer__logo-image" src="https://via.placeholder.com/147x40" alt="Логотип Pink">
-        <div class="page-footer__social">
-          <ul class="social-link">
-            <li class="social-link__twitter">
-              <a href="https://twitter.com/" class="page-footer__link-twitter">
-                Twitter
-              </a>
-            </li>
-            <li class="social-link__facebook">
-              <a href="https://www.facebook.com/" class="page-footer__link-facebook">
-                Facebook
-              </a>
-            </li>
-            <li class="social-link__youtube">
-              <a href="https://www.youtube.com/" class="page-footer__link-youtube">
-                YouTube
-              </a>
-            </li>
-          </ul>
+          <div class="app-quiz">
+            <p class="app-quiz__text">С каким приложением путешествовали?</p>
+            <input class="visually-hidden app-quiz__input app-quiz__input-checkbox" id="ios" type="radio" name="ios"
+              checked>
+            <label class="app-quiz__cursor" for="ios">
+              Pink для iOS
+            </label>
+            <input class="visually-hidden app-quiz__input app-quiz__input-checkbox" id="android" type="radio"
+              name="android">
+            <label class="app-quiz__cursor" for="android">
+              Pink для Android
+            </label>
+            <input class="visually-hidden app-quiz__input app-quiz__input-checkbox" id="windows" type="radio"
+              name="windows">
+            <label class="app-quiz__cursor" for="windows">
+              Windows Phone
+            </label>
+          </div>
+          <div class="comment-about">
+            <p class="comment-about-text">Опишите свои эмоции</p>
+            <textarea class="comment-about__form" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+            <input type="submit" name="submitform" value="Отправить форму">
+            <p class="comment-about__important">* — обязательные поля</p>
+          </div>
         </div>
-        <div class="social-link__developer">
-          <a href="https://htmlacademy.ru/intensive/javascript" class="page-footer__developer-link">
-            <span>Разработано</span>
-            <img class="page-header__social-image" src="https://via.placeholder.com/46x46" alt="Логотип HTML Academy">
-          </a>
-        </div>
-      </footer>
-  </body>
+      </form>
+    </main>
+    <footer class="page-footer">
+      <img class="page-footer__logo-image" src="https://via.placeholder.com/147x40" alt="Логотип Pink">
+      <div class="page-footer__social">
+        <ul class="social-link">
+          <li class="social-link__twitter">
+            <a href="https://twitter.com/" class="page-footer__link-twitter">
+              Twitter
+            </a>
+          </li>
+          <li class="social-link__facebook">
+            <a href="https://www.facebook.com/" class="page-footer__link-facebook">
+              Facebook
+            </a>
+          </li>
+          <li class="social-link__youtube">
+            <a href="https://www.youtube.com/" class="page-footer__link-youtube">
+              YouTube
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="social-link__developer">
+        <a href="https://htmlacademy.ru/intensive/javascript" class="page-footer__developer-link">
+          <span>Разработано</span>
+          <img class="page-header__social-image" src="https://via.placeholder.com/46x46" alt="Логотип HTML Academy">
+        </a>
+      </div>
+    </footer>
+</body>
 </html>
