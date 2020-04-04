@@ -99,47 +99,67 @@
           </ul>
         </div>
       </section>
-      <section class="sub slider">
-        <table class="sub-selector">
-          <thead class="sub__choose">
-            <tr class="sub__tariff">
-              <th class="sub__tariff-name">База</th>
-              <th><span>1,99 USD</span></th>
-              <th class="sub__choose-special">Хит</th>
-              <th class="sub__tariff-name">Стандарт</th>
-              <th><span>3,99 USD</span></th>
-              <th class="sub__tariff-name">Анлим</th>
-              <th><span>9,99 USD</span></th>
+      <section class="tariff slider">
+        <table class="tariffs__table">
+          <thead class="tariffs__head">
+            <tr>
+              <th class="tariffs__name">
+                База
+                <span class="tariffs__price">1,99 USD</span>
+              </th>
+              <th class="tariffs__name">
+                Стандарт
+                <span class="tariffs__price">3,99 USD</span>
+                <span class="tariffs__label">Хит</span>
+              </th>
+              <th class="tariffs__name">
+                Анлим
+                <span class="tariffs__price">9,99 USD</span>
+              </th>
             </tr>
           </thead>
-          <tbody class="sub__access">
-            <tr class="sub__tariff">
-              <td class="sub__filter">Розовый фильтр</td>
-              <td class="sub__yes visually-hidden">Есть</td>
-              <td class="sub__filter">Розовый фильтр</td>
-              <td class="sub__yes visually-hidden">Есть</td>
-              <td class="sub__filter">Розовый фильтр</td>
-              <td>Есть</td>
+          <tbody class="tariffs__body">
+            <tr>
+              <td class="tariffs__cell">
+                Розовый фильтр
+                <span class="visually-hidden tariffs__cell--on">Есть</span>
+              </td>
+              <td class="tariffs__cell">
+                Розовый фильтр
+                <span class="visually-hidden tariffs__cell--on">Есть</span>
+              </td>
+              <td class="tariffs__cell">
+                Розовый фильтр
+                <span class="visually-hidden tariffs__cell--on">Есть</span>
+              </td>
             </tr>
-          </tbody>
-          <tbody class="sub__access">
-            <tr class="sub__tariff">
-              <td class="sub__smiles">Смайлики</td>
-              <td class="sub__no visually-hidden">Нет</td>
-              <td class="sub__smiles">Смайлики</td>
-              <td class="sub__yes visually-hidden">Есть</td>
-              <td class="sub__smiles">Смайлики</td>
-              <td class="sub__yes visually-hidden">Есть</td>
+            <tr>
+              <td class="tariffs__cell">
+                Смайлики
+                <span class="visually-hidden tariffs__cell--off">Нет</span>
+              </td>
+              <td class="tariffs__cell">
+                Смайлики
+                <span class="visually-hidden tariffs__cell--on">Есть</span>
+              </td>
+              <td class="tariffs__cell">
+                Смайлики
+                <span class="visually-hidden tariffs__cell--on">Есть</span>
+              </td>
             </tr>
-          </tbody>
-          <tbody class="sub__access">
-            <tr class="sub__tariff">
-              <td class="sub__comment">Комментарии</td>
-              <td class="sub__no visually-hidden">Нет</td>
-              <td class="sub__comment">Комментарии</td>
-              <td class="sub__no visually-hidden">Нет</td>
-              <td class="sub__comment">Комментарии</td>
-              <td class="sub__yes visually-hidden">Есть</td>
+            <tr>
+              <td class="tariffs__cell">
+                Комментарии
+                <span class="visually-hidden tariffs__cell--off">Нет</span>
+              </td>
+              <td class="tariffs__cell">
+                Комментарии
+                <span class="visually-hidden tariffs__cell--off">Нет</span>
+              </td>
+              <td class="tariffs__cell">
+                Комментарии
+                <span class="visually-hidden tariffs__cell--on">Есть</span>
+              </td>
             </tr>
           </tbody>
         </table>
