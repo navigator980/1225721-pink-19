@@ -1,0 +1,50 @@
+.gallery ul {
+  padding: 0;
+}
+
+.gallery__list li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.gallery__list-item {
+  width: 280px;
+  background-color: #f2f2f2;
+}
+
+.gallery__speacial {
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+
+}
+
+.gallery__list-item--speacial .gallery__speacial{
+  background: #d22856;
+
+}
+
+.gallery__author {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.gallery__time-moment {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  color: lightgray;
+}
+
+.gallery__comment {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.gallery__likes {
+  text-transform: uppercase;
+  color: #d22856;
+}
