@@ -1,17 +1,19 @@
-.app-quiz {
-  background-color: #f2f2f2;
-}
-
-.app-quiz__text {
+.achievement__text {
   font-size: 14px;
   font-weight: 300;
   line-height: 18px;
   color: #d22856;
   text-transform: uppercase;
+  margin: 0;
 }
 
-.app-quiz__cursor {
+.complete-achievement__cursor {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
+}
+
+.achievement__text,
+.complete-achievement {
+  background-color: #f2f2f2;
 }
