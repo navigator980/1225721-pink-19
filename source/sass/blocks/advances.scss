@@ -2,18 +2,22 @@
   min-height: 828px;
 }
 
-.advances p {
+.advances__text {
   font-size: 24px;
   font-weight: 300;
   color: #283645;
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 .advances__list {
   list-style: none;
-  width: 320px;
-  padding-top: 130px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding-top: 119px;
   padding-left: 0;
   padding-right: 0;
+  background-color: #f2f2f2;
 }
 
 .advances__list-item h3 {
@@ -25,4 +29,11 @@
 .advances__list-item p {
   font-size: 14px;
   font-weight: 400;
+}
+
+.app-info__title {
+  min-height: 462px;
+  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-size: cover;
+  margin-bottom: 50px;
 }

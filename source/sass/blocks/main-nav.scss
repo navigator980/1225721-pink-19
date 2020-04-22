@@ -2,21 +2,39 @@
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media (min-width: 980px) {
+    display: flex;
+  }
 }
 
-.site-list__item a {
-  color: #ffffff;
-  text-decoration: none;
+.main-nav__wrapper {
+  min-width: 320px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: 660px) {
+    max-width: 620px;
+  }
+
+  @media (min-width: 980px) {
+    width: 147px;
+    margin: 0;
+  }
 }
 
-.site-list__item {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  width: 320px;
+.main-nav__toggle {
+  @media (min-width: 980px) {
+    display: none;
+  }
 }
 
-.competition-text {
-  font-size: 24px;
-  font-weight: 300;
-  color: #ffffff;
+.main-nav {
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 960px) {
+    display: flex;
+  }
 }
