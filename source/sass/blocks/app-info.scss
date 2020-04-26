@@ -1,5 +1,13 @@
 .app-info {
   background-color: #17212d;
+  min-width: 320px;
+
+  @media (min-width: 660px) {
+    max-width: 620px;
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    background-size: cover;
+    min-height: 729px;
+  }
 }
 
 .app-info__title {
@@ -9,6 +17,19 @@
   font-weight: 300;
   margin: 0;
   min-width: 320px;
+  min-height: 462px;
+
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-size: cover;
+
+
+  @media (min-width: 660px) {
+    max-width: 620px;
+    font-size: 40px;
+    width: 190px;
+    background-image: none;
+    padding-top: 213px;
+  }
 }
 
 .app-info__text {
@@ -44,4 +65,12 @@
   margin-right: 42px;
   margin-left: 39px;
   margin-top: 40px;
+  min-width: 320px;
+}
+
+.app-info__download {
+  @media (min-width: 660px) {
+    width: 300px;
+    padding-bottom: 112px;
+  }
 }

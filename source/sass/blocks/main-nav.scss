@@ -1,3 +1,16 @@
+.main-nav {
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 660px) {
+    max-width: 620px;
+  }
+
+  @media (min-width: 960px) {
+    display: flex;
+  }
+}
+
 .main-nav__list {
   list-style: none;
   margin: 0;
@@ -27,14 +40,5 @@
 .main-nav__toggle {
   @media (min-width: 980px) {
     display: none;
-  }
-}
-
-.main-nav {
-  align-items: center;
-  justify-content: center;
-
-  @media (min-width: 960px) {
-    display: flex;
   }
 }

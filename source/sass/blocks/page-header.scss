@@ -2,4 +2,8 @@
   background-color: #283645;
   font-size: 18px;
   font-weight: 700;
+
+  @media (min-width: 660px) {
+    max-width: 620px;
+  }
 }

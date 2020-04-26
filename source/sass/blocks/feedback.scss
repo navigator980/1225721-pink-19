@@ -14,3 +14,9 @@
   font-weight: 300;
   line-height: 30px;
 }
+
+.feedback__wrapper {
+  @media (min-width: 660px) {
+    max-width: 620px;
+  }
+}

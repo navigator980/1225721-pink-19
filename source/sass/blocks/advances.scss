@@ -1,5 +1,10 @@
 .advances {
   min-height: 828px;
+
+  @media (min-width: 660px) {
+    max-width: 620px;
+
+  }
 }
 
 .advances__text {
@@ -29,11 +34,5 @@
 .advances__list-item p {
   font-size: 14px;
   font-weight: 400;
-}
-
-.app-info__title {
-  min-height: 462px;
-  background-image: url("../img/bg-back-mobile@1x.jpg");
-  background-size: cover;
-  margin-bottom: 50px;
+  min-width: 320px;
 }
