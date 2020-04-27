@@ -4,6 +4,7 @@
 
   @media (min-width: 660px) {
     max-width: 620px;
+    margin: 0 auto;
   }
 
   @media (min-width: 960px) {
@@ -15,6 +16,10 @@
   list-style: none;
   margin: 0;
   padding: 0;
+
+  @media (min-width: 660px) {
+    max-width: 620px;
+  }
 
   @media (min-width: 980px) {
     display: flex;
@@ -29,6 +34,7 @@
 
   @media (min-width: 660px) {
     max-width: 620px;
+    margin: 0 auto;
   }
 
   @media (min-width: 980px) {

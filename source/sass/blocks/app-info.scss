@@ -3,10 +3,11 @@
   min-width: 320px;
 
   @media (min-width: 660px) {
-    max-width: 620px;
+    min-width: 620px;
     background-image: url("../img/bg-back-tablet@1x.jpg");
     background-size: cover;
     min-height: 729px;
+    margin: 0 auto;
   }
 }
 

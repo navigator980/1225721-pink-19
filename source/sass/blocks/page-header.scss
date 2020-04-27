@@ -2,8 +2,10 @@
   background-color: #283645;
   font-size: 18px;
   font-weight: 700;
+  min-width: 320px;
 
   @media (min-width: 660px) {
     max-width: 620px;
+    margin: 0 auto;
   }
 }
