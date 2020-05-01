@@ -6,3 +6,9 @@ body {
   text-align: center;
   font-family: "OpenSans", "Arial", sans-serif;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

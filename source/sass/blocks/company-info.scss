@@ -1,4 +1,6 @@
 .company-info {
+  min-width: 320px;
+
   @media (min-width: 660px) {
     max-width: 620px;
     margin: 0 auto;
@@ -13,10 +15,13 @@
 .company-info__item {
   font-size: 18px;
   font-weight: 700;
+  margin: 0;
 }
 
 .company-info__link {
   font-size: 24px;
   color: #d22856;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 27px;
 }
