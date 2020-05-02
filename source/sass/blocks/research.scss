@@ -1,0 +1,9 @@
+.research {
+  max-width: 320px;
+  display: none;
+
+  @media (min-width: 660px) {
+    max-width: 620px;
+    display: block;
+  }
+}
