@@ -10,9 +10,17 @@
 .company-info__heading {
   font-size: 24px;
   font-weight: 300;
+  padding-left: 50px;
+  padding-right: 50px;
+
+
+  @media (min-width: 660px) {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
 }
 
-.company-info__item {
+.company-info__title {
   font-size: 18px;
   font-weight: 700;
   margin: 0;
@@ -24,4 +32,23 @@
   text-decoration: none;
   display: inline-block;
   margin-bottom: 27px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  @media (min-width: 660px) {
+    padding: 0;
+  }
+}
+
+.company-info__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.company-info__contacts-item:nth-child(3) {
+  @media (min-width: 660px) {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 }

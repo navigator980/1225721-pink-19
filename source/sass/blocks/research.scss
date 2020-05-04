@@ -3,7 +3,40 @@
   display: none;
 
   @media (min-width: 660px) {
-    max-width: 620px;
+    min-width: 660px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: block;
   }
+}
+
+.research__text-block {
+  min-height: 276px;
+  background-image: url("../img/icon-timer.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 235px;
+  text-align: left;
+  padding-left: 300px;
+  margin-bottom: 106px;
+}
+
+.research__title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  padding-top: 43px;
+}
+
+.research__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.research__link {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #d22856;
 }

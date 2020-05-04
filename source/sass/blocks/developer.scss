@@ -1,0 +1,14 @@
+.developer {
+  display: none;
+
+  @media (min-width: 660px) {
+    display: block;
+  }
+}
+
+.developer a {
+  @media (min-width: 660px) {
+    width: 27px;
+    height: 34px;
+  }
+}

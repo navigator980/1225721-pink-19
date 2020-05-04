@@ -1,0 +1,48 @@
+.social {
+  display: none;
+
+  @media (min-width: 660px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.social__pink-logo {
+  background-image: url("../img/logo-pink-white-tablet.svg");
+  background-color: red;
+  width: 147px;
+  height: 40px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.social-links__item--twitter a {
+  background-image: url("../img/icon-twitter.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 46px;
+  height: 46px;
+}
+
+.social-links__item--facebook a {
+  background-image: url("../img/icon-facebook.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 46px;
+  height: 46px;
+}
+
+.social-links__item--youtube a {
+  background-image: url("../img/icon-youtube.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 46px;
+  height: 46px;
+}

@@ -7,6 +7,15 @@
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
+
+  @media (min-width: 660px) {
+    font-size: 20px;
+  }
+}
+
+.feedback__user-comments {
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .feedback__user-comment {
@@ -15,11 +24,27 @@
   line-height: 30px;
   padding-left: 20px;
   padding-right: 20px;
+
+  @media (min-width: 660px) {
+    font-size: 18px;
+  }
 }
 
 .feedback__wrapper {
   @media (min-width: 660px) {
     max-width: 620px;
     margin: 0 auto;
+  }
+}
+
+.feedback__user-description {
+  display: none;
+
+  @media (min-width: 660px) {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #283645;
+    display: block;
   }
 }

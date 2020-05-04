@@ -10,5 +10,13 @@
 .site-list__item {
   @media (min-width: 980px) {
     margin-left: 82px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.site-list {
+  @media (min-width: 980px) {
+    max-width: 960px;
   }
 }
